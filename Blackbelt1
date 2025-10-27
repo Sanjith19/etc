@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Novelty Black Belt Certificate</title>
+<style>
+  @page { size: A4; margin: 20mm; }
+  body { font-family: "Georgia", serif; background: #f7f7f7; padding: 30px; }
+  .cert {
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px;
+    background: white;
+    border: 8px double #222;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    position: relative;
+  }
+  .watermark {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-30deg);
+    font-size: 48px;
+    color: rgba(200,0,0,0.10);
+    letter-spacing: 8px;
+    pointer-events: none;
+  }
+  h1 { text-align: center; margin: 0; font-size: 36px; letter-spacing: 2px; }
+  h2 { text-align: center; margin-top: 8px; font-size: 20px; color: #555; }
+  .body { margin-top: 30px; font-size: 18px; line-height: 1.5; text-align: center; }
+  .name { font-size: 34px; font-weight: bold; margin: 18px 0; }
+  .badge { display:inline-block; padding:10px 18px; border-radius: 22px; border: 2px solid #111; font-weight:700; margin-top: 12px; }
+  .row { display:flex; justify-content:space-between; margin-top:40px; align-items:center; }
+  .sign { text-align:center; width:45%; }
+  .small { font-size:12px; color:#a00; text-align:center; margin-top:12px; letter-spacing:1px; }
+  @media print {
+    body { background: white; }
+    .cert { box-shadow: none; border-color: #000; }
+  }
+</style>
+</head>
+<body>
+  <div class="cert">
+    <div class="watermark">FOR ENTERTAINMENT ONLY</div>
+    <h1>HONORARY BLACK BELT</h1>
+    <h2>Backyard Dojo of Good Times</h2>
+
+    <div class="body">
+      This is to acknowledge that
+      <div class="name">[YOUR NAME HERE]</div>
+      has demonstrated extraordinary dedication to the arts of
+      good humour, dramatic bowing, and stealthy snack acquisition,
+      and is therefore awarded the title of
+      <div class="badge">BLACK BELT (NOVELTY)</div>
+
+      <div style="margin-top:20px;">Awarded on <strong>27 October 2025</strong></div>
+      <div style="margin-top:6px; color:#666;">Location: Backyard Dojo of Good Times</div>
+    </div>
+
+    <div class="row">
+      <div class="sign">
+        ___________________________<br>
+        Master of Shenanigans<br>
+        Chief Instructor
+      </div>
+
+      <div class="sign">
+        ___________________________<br>
+        Date: 27 Oct 2025
+      </div>
+    </div>
+
+    <div class="small">THIS IS A NOVELTY CERTIFICATE FOR ENTERTAINMENT PURPOSES ONLY — NOT AN OFFICIAL MARTIAL ARTS CERTIFICATE</div>
+  </div>
+</body>
+</html>
